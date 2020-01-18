@@ -19,7 +19,7 @@ spring:
     password: guest
   redis:
     host: paascloud-db-redis
-    password: paascloud@redis
+    password: mofe9998
     port: 6379
     timeout: 0
   datasource:
@@ -36,12 +36,12 @@ spring:
         exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
       stat-view-servlet:
         allow:
-        login-username: admin
-        login-password: admin
+        login-username: root
+        login-password: 123456
   mail:
     host: smtp.163.com
-    username: paascloudTest@163.com
-    password: a123456
+    username: yefengmatou@163.com
+    password: Hht1230
     port: 465
     protocol: smtp
     test-connection: false
@@ -100,9 +100,9 @@ hystrix:
             timeoutInMilliseconds: 20000
 
 info:
-  软件著作权: paascloud快速搭建企业级分布式微服务平台
-  著作登记号: 2018SR320076
-  关于我们: http://paascloud.net
+  软件著作权: 分布式微服务平台
+  著作登记号: 112233
+  关于我们: www
 
 paascloud:
   auth:
